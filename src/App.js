@@ -3,7 +3,10 @@ import Navbar from "./components/Navbar";
 function App() {
   return (
     <div>
-  <BrowserRouter basename="/class">
+      <BrowserRouter basename="/class">
+        <Navbar />
+        <p>Home component </p>
+      </BrowserRouter>
     </div>
   );
 }
