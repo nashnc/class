@@ -9,13 +9,11 @@ import router from "./router";
 import { Provider } from "react-redux";
 const root = reactDOM.createRoot(document.getElementById("root"));
 root.render(
-  <BrowserRouter basename="/class">
     <Provider store={store}>
       {/* <AutoLogin> */}
       <RouterProvider router={router} />
       {/* </AutoLogin> */}
     </Provider>
-  </BrowserRouter>
 );
 
 export default reportWebVitals();
