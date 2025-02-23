@@ -20,6 +20,9 @@ const router = createBrowserRouter([
   { path: "/blog/posts/:postId/edit", element: <EditPost /> },
   { path: "register", element: <Register /> },
   { path: "login", element: <Login /> },
-]);
+],
+  {
+  basename:'/class'
+});
 
 export default router;
